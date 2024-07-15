@@ -25,12 +25,5 @@ pipeline{
                sh 'df -kh'
            }
        }
-       stage('free')
-       {
-           steps
-           {
-               sh 'free -gh'
-           }
-       }
     }
     }
